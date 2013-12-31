@@ -183,7 +183,7 @@ body {
 #access ul li a:hover{
 	color: #9B0606;
 }
-
+/*
 #main_slider {
 	width: 978px;
 	height: 478px;
@@ -195,7 +195,7 @@ body {
 	margin: 0px 5px 0px 5px;
 	float: right;
 }
-
+*/
 #home_container_wrp {
 	overflow: hidden;
 	background: url("./images/home_shadow_bg.png") no-repeat scroll center top;
@@ -847,3 +847,12 @@ body {
 
 #wrapper	{float:left; height:50%; margin-bottom:-27px;}
 #cell	{clear:both; height:54px; position:relative;}
+
+/* YADWS */
+.yadws-slider {
+    background-color: #FFF;
+}
+.yadws-slider .yadws-slide {
+    padding: 12px;
+    padding-right: 0;
+}
