@@ -17,3 +17,4 @@ Template Name: Home template
 			</div>	
 		</div>
 <?php get_footer(); ?>		
+
