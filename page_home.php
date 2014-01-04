@@ -4,11 +4,7 @@ Template Name: Home template
 */
 ?>
 <?php get_header(); ?>
-			<div id="main_slider">
-				<img src="/wp-content/themes/madonna/images/mainslider_slide_3.png" />
-				<img src="/wp-content/themes/madonna/images/mainslider_slide_2.png" />
-				<img src="/wp-content/themes/madonna/images/mainslider_slide_1.png" />
-			</div>			
+			<?php echo do_shortcode("[yadws slug='homepage-slider']"); ?>
 			<div id="home_container_wrp">
 				<div id="home_container">
 					<div id="left_content">
